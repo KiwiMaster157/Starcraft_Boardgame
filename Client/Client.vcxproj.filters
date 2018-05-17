@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Network">
+      <UniqueIdentifier>{a16aafb8-6bb3-4744-bb73-04fabfd1fb05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface">
+      <UniqueIdentifier>{2c33e48b-d047-442e-8a02-3dc44b821a77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

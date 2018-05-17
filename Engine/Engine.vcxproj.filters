@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Board">
+      <UniqueIdentifier>{33021847-0302-49bd-9169-9d30def5c265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cards">
+      <UniqueIdentifier>{4ae1cccb-12fc-4f71-90b5-b8be32fcd519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{1dc72695-2eb7-432a-ad6d-f8d5621e176f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Owned">
+      <UniqueIdentifier>{62ad1d73-9dbe-49b5-9944-fe5ddc4d6d57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gamestate.h" />
+    <ClInclude Include="Utility\OwnedObject.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Faction.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Place.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Owned\Unit.h">
+      <Filter>Owned</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h" />
+    <ClInclude Include="Utility\PlacedObject.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\Planet.h">
+      <Filter>Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\Navigation.h">
+      <Filter>Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Owned\Base.h">
+      <Filter>Owned</Filter>
+    </ClInclude>
+    <ClInclude Include="Owned\ActionToken.h">
+      <Filter>Owned</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\Zone.h">
+      <Filter>Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Board\Resource.h">
+      <Filter>Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Owned.h" />
+    <ClInclude Include="Utility\Iterated.hpp">
+      <Filter>Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Utility\Faction.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Place.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\OwnedObject.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\PlacedObject.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Owned\Unit.cpp">
+      <Filter>Owned</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\Navigation.cpp">
+      <Filter>Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Owned\Base.cpp">
+      <Filter>Owned</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\Zone.cpp">
+      <Filter>Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\Resource.cpp">
+      <Filter>Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Board\Planet.cpp">
+      <Filter>Board</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

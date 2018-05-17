@@ -1,0 +1,14 @@
+Adding a planet:
+1. Construct planet
+2. Add zones to planet
+3. Add navRoute hookups to planet
+4. lock() planet
+
+Adding a bridge:
+1. Make navRoute pointer object with places set
+2. Planet::connect both ends
+
+Moving a bridge:
+1. Set new connection point in navRoute
+2. Planet::disconnect
+3. Planet::connect
